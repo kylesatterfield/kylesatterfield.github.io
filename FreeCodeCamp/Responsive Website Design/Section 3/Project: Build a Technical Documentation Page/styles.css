@@ -1,0 +1,23 @@
+
+header {
+  font-size: 30;
+  font-family: Copperplate Gothic;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav {
+  text-align: left;
+}
+
+  @media (max-width: 1199px) and (min-width: 769px) {
+    .navbar {
+      width: 633px;
+    }
+  
+  }
+
+  code::after {
+    content: "\a";
+    white-space: pre;
+  }

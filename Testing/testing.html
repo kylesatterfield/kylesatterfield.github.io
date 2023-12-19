@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArcGIS Web Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/esri-leaflet/dist/esri-leaflet.js"></script>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #map {
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+    <script>
+        // Replace this URL with the URL of the ArcGIS REST Services layer
+        var arcgisUrl = 'https://sampleserver6.arcgisonline.com/arcgis/rest/services/Census/MapServer/3';
+
+        // Create a Leaflet map centered at a specific location
+        var map = L.map('map').setView([37.7749, -122.4194], 13);
+
+        // Add the ArcGIS REST Services layer to the map
+        L.esri.dynamicMapLayer({
+            url: arcgisUrl
+        }).addTo(map);
+
+        // Add a basemap layer (you can choose a different basemap)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+write html and css for a resume for a GIS Analyst that consists of:
+
+    1. a left column that is 1/3 page width the includes a headshot photograph, contact information,
+    and a list of skills represented by horizontal bar graphics representing the percentge of skill ability.
+
+    2. a right column that is 2/3 page width that includes:
+
+        a top section displaying education and certifications
+
+        a bottom section displaying work history/experience
+
+create a small gap between the sections on the page
+
+outline the sections with a border with rounded corners
+
+make this page responsive to mobile devices by placing the right column below the left column on small viewports

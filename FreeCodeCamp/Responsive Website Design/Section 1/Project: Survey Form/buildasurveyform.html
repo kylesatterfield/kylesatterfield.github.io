@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1 id="title">Registration Form</h1>
+    <p id="description">Please fill out this form to inquire about service</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name<input id="name" type="text" placeholder="Name" required></label>
+            <label id="email-label">Email<input id="email" type="email" required placeholder="Email"></label>
+            <label id="number-label">Number<input id="number" type="number" min="15" max="120" placeholder="Number"></label>
+        </fieldset>
+        <fieldset>
+            <label>Select 1 or 2:
+                <select id="dropdown">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select 1 or 2</legend>
+            <label>1:   <input type="radio" name="radio" value="1"></label>
+            <label>2:   <input type="radio" name="radio" value="2"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Select A or B:</legend>
+            <label>A:   <input type="checkbox" value="A"></label>
+            <label>B:   <input type="checkbox" value="B"></label>
+        </fieldset>
+        </fieldset>
+        <fieldset>
+            <label>Input Text<textarea></textarea></label>
+        </fieldset>
+            <input id="submit" type="submit" value="Submit" />
+    </form>
+</body>
+</html>

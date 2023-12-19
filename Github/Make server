@@ -1,0 +1,5 @@
+Tun this in terminal:
+npm i -g http-server
+
+then enter this to run server:
+http-server

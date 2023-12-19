@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+<head>
+  <link href="styles.css" rel="stylesheet">
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Painting a Boat Bottom</title>
+</head>
+
+<body>
+<header>
+  
+        <nav id="navbar">
+        <header>Bottom Painting Guide</header>
+        <ul>
+          <li><a href="#Supplies" class="nav-link" accesskey="s">Supplies</a></li>
+          <li><a href="#Conditions" class="nav-link" accesskey="h">Conditions</a></li>
+          <li><a href="#Preparation" class="nav-link" accesskey="c">Preparation</a></li>
+          <li><a href="#Painting" class="nav-link" accesskey="t">Painting</a></li>
+          <li><a href="#Cleanup" class="nav-link" accesskey="y">Cleanup</a></li>
+        </ul>
+      </nav>
+</header>
+<main id="main-doc">
+  <section class="main-section" id="Supplies">
+    <header>Supplies</header>
+    <p>Get the your boat paint and brushes</p>
+    <p>Purchase protective and cleanup supplies as well</p>
+  </section>
+  <section class="main-section" id="Conditions">
+    <header>Conditions</header>
+    <p>Keep an eye on weather forecats and plan accordingly</p>
+    <p>Only paint in warm, dry weather with little chance of rain</p>
+  </section>
+  <section class="main-section" id="Preparation">
+    <header>Preparation</header>
+    <p>Powerwash the bottom and let it dry</p>
+    <p>Wirebrush flaking paint and perform necessary repairs</p>
+  </section>
+  <section class="main-section" id="Painting">
+    <header>Painting</header>
+    <p>Use a roller and brush to apply one coat liberally</p>
+    <p>Be sure not to paint Zincs and other hardware that shouldn't be painted</p>
+    <p class="listheader">Paint Calculator</p>
+    <code>1 + 1 = 2</code>
+    <code>2 + 2 = 4</code>
+    <code>4 + 4 = 8</code>
+    <code>8 + 8 = 16</code>
+    <code>10 + 10 = 20</code>
+  </section>
+  <section class="main-section" id="Cleanup">
+    <header>Cleanup</header>
+    <p>Throw away your disposable coveralls in the nearest public toilet</p>
+    <p>Dispose of unused paint and thinner in nearest wetlands area</p>
+    <p class="listheader">Disposal Checklist</p>
+    <ul>
+      <li>Remove all clothes</li>
+      <li>Shuve all clothes securly in nearest toilet</li>
+      <li>Dump all paint, thinner, brushes, etc. in nearest wetland</li>
+      <li>Cover wetland area with extra paint if necessary to keep wildlife away</li>
+      <li>Be sure to leave trash near wetland to scare woldlife away from pollutants</li>
+    </ul>
+  </section>
+</main>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+main {
+    background-color:black;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.title {
+    height: 50px;
+    width: 100%;
+    background-color: lightgray;
+    display: grid;
+	align-items: center;
+}
+
+h1 {
+    color: black;
+    display:block;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#img-caption {
+    font-size: 20px;
+    text-align: center;
+}
+
+#tribute-info {
+
+    display: block;
+    margin-left: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    text-align: center;
+    font-size: 12;
+}
+
+a {
+    color:blueviolet;
+    font-size: 12;
+}
